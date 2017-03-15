@@ -1,0 +1,305 @@
+// 重置样式all-music
+@import "../libs/normalize-css/normalize.css";
+
+//全局样式
+body{
+  font-family: Arial Helvetica sans-serif;
+  font-size: 12px;
+  min-width: 1296px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a{
+  color: #000000;
+}
+a:hover{
+  color: #CB3415;
+}
+//------------------------------头部-------------------
+header{
+  width: 100%;
+  height: 110px;
+  article{
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+      width: 260px;
+      height: 83px;
+    }
+    .logo-r{
+      width: 502px;
+      height: 44px;
+    }
+  }
+}
+
+//-------------------------内容主体---------------------
+.content{
+  height: 650px;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  .loginleft{
+    width: 500px;
+    padding-top: 30px;
+  }
+  .loginright{
+    border: #ccc 1px solid;
+    border-top: #ea3918 2px solid;
+    height: 313px;
+    width: 290px;
+    margin-top: 30px;
+    padding: 20px 40px;
+    .login-hd{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      span{
+        display: inline-block;
+        height: 26px;
+        line-height: 26px;
+      }
+      span:nth-child(1){
+        font-size: 22px;
+        color: #444;
+      }
+      span:nth-child(2){
+        a{
+          color: #999999;
+        }
+        a:hover{
+          color: #128cff;
+        }
+      }
+    }
+
+    .form1>div{
+      display: flex;
+      #yz{
+        width: 110px;
+        text-indent: 10px;
+      }
+      .mapic{
+        margin-left: 10px;
+        color: #696969;
+        text-align: center;
+        line-height: 32px;
+        width: 110px;
+        background: #dddddd;
+      }
+      a{
+        margin-left: 10px;
+        line-height: 32px;
+        color: #696969;
+      }
+      a:hover{
+        color: #128cff;
+      }
+
+      span{
+        display: inline-block;
+        width: 35px;
+        height: 32px;
+      }
+      input{
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #CCCCCC;
+        padding: 0;
+        color: #999;
+        text-indent: 10px;
+        font-size: 14px;
+        outline: none;
+      }
+      .user{
+        background: url("../images/tegPng.png") 0 -52px no-repeat;
+      }
+      .passw{
+        background: url("../images/tegPng.png") 0 0 no-repeat;
+      }
+    }
+    p{
+      color: red;
+      line-height: 24px;
+      height: 24px;
+      text-align: right;
+      a{
+        color: #696969;
+      }
+      a:hover{
+        color: #128cff;
+      }
+    }
+    .bottom-bar{
+      color: #696969;
+      margin-top: 15px;
+      height: 20px;
+      line-height: 20px;
+      a{
+        background: url("../images/tegPng.png") no-repeat;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 6px;
+      }
+      a:nth-child(1){
+        background-position: -26px -128px;
+      }
+      a:nth-child(2){
+        background-position: -66px -128px;
+      }
+      a:nth-child(3){
+        background-position: -106px -128px;
+      }
+      a:nth-child(4){
+        background-position: -147px -382px;
+      }
+    }
+
+    #login-btn{
+      background-color: #e83917;
+      width: 290px;
+      margin-top: 5px;
+      color: #fff;
+      font-size: 22px;
+      height: 40px;
+      line-height: 40px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}
+
+//------------------------底部-----------------------
+footer {
+  width: 100%;
+  background: #ffffff;
+  .mid {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .about{
+    width: 100%;
+    background: #fff;
+    padding-bottom: 15px;
+    .aboutLink{
+      height: 35px;
+      line-height: 35px;
+      background: #444851;
+      overflow: hidden;
+      text-align: center;
+      margin-bottom: 10px;
+      a{
+        color: #adadad;
+        padding: 0 17px;
+        transition: 1s;
+      }
+      a:hover{
+        color: #F5F5F5;
+      }
+      span{
+        color: #555;
+      }
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      line-height: 24px;
+      img{
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
+//------------------------注册----------------------------------
+.content .register{
+
+  form{
+    width: 100%;
+
+    p{
+      height: 24px;
+
+    }
+    .yanzheng{
+      display: flex;
+      .yz{
+        width: 40%;
+      }
+      .ma{
+        margin-left: 10px;
+        display: inline-block;
+        width: 100px;
+        height: 34px;
+        background: #e2e2e2;
+        text-align: center;
+        line-height: 34px;
+      }
+      .change{
+        display: inline-block;
+        width: 50px;
+        line-height: 34px;
+      }
+    }
+    .warning{
+      text-align: left;
+      text-indent: 10px;
+      color: red;
+    }
+    .agree{
+      text-align: left;
+    }
+    .check1{
+      vertical-align: middle;
+      outline: none;
+      margin-top: -2px;
+      margin-right: 5px;
+    }
+  }
+  form>input{
+    width: 100%;
+    border: 1px solid #dedede;
+    color: #999;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    text-indent: 10px;
+  }
+}
+#registerbtn{
+  background-color: #e83917;
+  width: 290px;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 22px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

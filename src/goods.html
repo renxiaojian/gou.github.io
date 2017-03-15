@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>麦乐购商品详情页面</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/goods.css">
+    <link rel="stylesheet" href="./css/zzsc.css">
+</head>
+<body>
+<!--头部内容开始-->
+<header>
+    <!--广告位-->
+    <section class="adTop">
+        <a href="javascript:;">
+            <img src="./images/ad.jpg" alt="ad">
+        </a>
+        <span id="closeBtn">关闭</span>
+    </section>
+    <!--头部主要-->
+    <section class="top_main">
+        <div class="top-bar">
+            <article>
+                <ul class="ull">
+                    <li>
+                        <span class="home"></span>
+                        <a href="./gou.html">麦乐购首页</a>
+                        <a href="#">请登陆</a>
+                        <a href="#" class="red">免费注册</a>
+                    </li>
+                    <li>
+                        <span>其他登陆方式：</span>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <span>联系客服：</span>
+                        <span class="tel">400-666-6600</span>
+                    </li>
+                </ul>
+                <ul class="ulr">
+                    <li class="mygou">
+                        <a href="#">
+                            我的麦乐购
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="noneCon">
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的账户</a></li>
+                            <li><a href="#">麦豆兑换</a></li>
+                            <li><a href="#">我的优惠券</a></li>
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">幸运刮刮卡</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i>|</i>
+                            <span class="xx"></span>
+                            收藏麦乐购
+                        </a>
+                    </li>
+                    <li><a href="#"><i>|</i>妈妈赚钱计划<i class="s_mark">|</i></a></li>
+                    <li class="mygou">
+                        <a href="#">
+                            <span class="phone"></span>
+                            手机麦乐购
+                        </a>
+                        <div class="noneCon saoma">
+                            <img src="./images/saoma.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </div>
+        <div class="top-search">
+            <article>
+                <div class="logo-l"><img src="./images/icon_img/log_l.jpg" alt=""></div>
+                <div class="search-m">
+                    <form action="">
+                        <input type="text" class="search" placeholder="请输入商品名称，支持拼音搜索">
+                        <input type="button" class="sbtn" value="搜索">
+                    </form>
+                    <p class="hot">
+                        热门关键词：
+                        <a href="#" class="a-on">牛栏</a>
+                        <a href="#" class="a-on">花王</a>
+                        <a href="#">美素</a>
+                        <a href="#">爱他美</a>
+                        <a href="#">karicare</a>
+                        <a href="#">喜宝</a>
+                        <a href="#">swisse</a>
+                    </p>
+                </div>
+                <div class="logo-r"><img src="./images/icon_img/logo_r.jpg" alt=""></div>
+            </article>
+        </div>
+        <nav>
+            <article class="nav-main">
+                <div class="menu-btn">全部商品分类</div>
+                <ul class="nav-bar" id="nav-bar">
+                    <li class="nav-on current-line"><a href="#">首页</a></li>
+                    <li><a href="#">进口奶粉</a></li>
+                    <li><a href="#">整点抢</a></li>
+                    <li><a href="#">神妈值得买</a></li>
+                    <li><span class="nav-hot"></span><a href="./huodong.html">天天特卖</a></li>
+                    <li><a href="#">正品保证</a></li>
+                    <li><span class="nav-new"></span><a href="#">海外直邮</a></li>
+                    <li><a href="#">国家馆</a></li>
+                    <!--<li class="line">-->
+                    <!--<div class="line-arrow"></div>-->
+                    <!--</li>-->
+                </ul>
+                <div class="nav-car"><span class="icon-car"></span><a href="#">去购物车结算</a></div>
+                <!--左侧菜单导航-->
+                <div class="sidleCon">
+                    <div class="nav-sidle">
+                        <ul class="nav-list">
+                            <li>
+                                <i></i>
+                                <h3><a href="#">宝宝奶粉</a></h3>
+                                <p>
+                                    <a href="#">牛奶粉</a>
+                                    <a href="#">羊奶粉</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">宝宝辅食</a></h3>
+                                <p>
+                                    <a href="#">米粉</a>
+                                    <a href="#">宝宝零食</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">营养保健</a></h3>
+                                <p>
+                                    <a href="#">宝宝营养</a>
+                                    <a href="#">成人营养</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">宝宝用品</a></h3>
+                                <p>
+                                    <a href="#">纸尿裤</a>
+                                    <a href="#">喂养</a>
+                                    <a href="#">洗护</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">宝宝服饰</a></h3>
+                                <p>
+                                    <a href="#">婴幼服饰</a>
+                                    <a href="#">童装</a>
+                                    <a href="#">童鞋</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">宝宝玩具</a></h3>
+                                <p>
+                                    <a href="#">婴幼玩具</a>
+                                    <a href="#">遥控电动</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">孕产妇用品</a></h3>
+                                <p>
+                                    <a href="#">孕妈营养</a>
+                                    <a href="#">产前产后</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">个护化妆</a></h3>
+                                <p>
+                                    <a href="#">面部护肤</a>
+                                    <a href="#">女性护理</a>
+                                </p>
+                            </li>
+                            <li>
+                                <i></i>
+                                <h3><a href="#">居家生活</a></h3>
+                                <p>
+                                    <a href="#">食品饮料</a>
+                                    <a href="#">生活日用</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                    </div>
+                </div>
+            </article>
+        </nav>
+    </section>
+</header>
+<!--/头部内容结束-->
+
+<section class="content">
+    <!--面包屑导航-->
+    <div class="bread">
+        <a href="#">宝宝食品</a>>
+        <a href="#">奶粉</a>>
+        <a href="#">羊奶粉</a>>
+        <span>新西兰karicare山羊奶粉1段（0-6个月）900g</span>
+    </div>
+    <!--产品图片及参数-->
+    <div class="product">
+        <div class="pic">
+            <div class="con-FangDa" id="fangdajing">
+                <div class="con-fangDaIMg">
+                    <!-- 正常显示的图片-->
+                    <img src="./images/thumb/big1.jpg">
+                    <!-- 滑块-->
+                    <div class="magnifyingBegin"></div>
+                    <!-- 放大镜显示的图片 -->
+                    <div class="magnifyingShow"><img src="./images/thumb/big1.jpg"></div>
+                </div>
+
+                <ul class="con-FangDa-ImgList">
+                    <!-- 图片显示列表 -->
+                    <li class="active"><img src="./images/thumb/s1.jpg" data-bigimg="./images/thumb/big1.jpg"></li>
+                    <li><img src="./images/thumb/s2.jpg" data-bigimg="./images/thumb/big2.jpg"></li>
+                    <li><img src="./images/thumb/s3.jpg" data-bigimg="./images/thumb/big3.jpg"></li>
+                    <li><img src="./images/thumb/s4.jpg" data-bigimg="./images/thumb/big4.jpg"></li>
+                </ul>
+            </div>
+            <p><span></span><a href="#">收藏商品：（48人气）</a></p>
+        </div>
+        <div class="pro-info">
+            <div class="goodsName">
+                <h1>
+                    <font color="red">全球购</font><b class="num">4件装 <i></i></b>新西兰karicare山羊奶粉1段（0-6个月）900g（海外版）
+                </h1>
+                <span>新西兰羊奶配方奶粉，是公认的羊奶粉好品牌。精选新西兰山羊奶，含有天然的核苷酸，脂肪球只有牛奶的1/3，易消化，不易上火，不易过敏，尤其适合易过敏体质的宝宝。</span>
+            </div>
+            <div class="goodsPay">
+                <ul>
+                    <li class="bgGray">
+                        <div>促 销 价：</div>
+                        <div>
+                            <font color="red">￥</font>
+                            <span>1011</span>
+                            <span class="unit-price"><i></i>单件：￥253</span>
+                            <div class="iblock"><em>含税价</em>（包含关税、进口增值税和消费税）</div>
+                        </div>
+                    </li>
+                    <li class="bgGray">
+                        <div>价  格：</div>
+                        <div><del>￥ 1400</del></div>
+                    </li>
+                    <li class="te bgGray">
+                        <div>促销信息：</div>
+                        <div>
+                            <p><a href="#" class="login">登陆</a> 查看更多优惠</p>
+                            <p><em class="mez">满额赠</em><a href="#" class="m">满499.00元即赠热销商品，购物车领取赠品</a></p>
+                        </div>
+                    </li>
+                    <li class="ass">
+                        <span>累计销量：<em> 1358  </em><i>|</i></span>
+                        <span>累计评价：<em>514</em><i>|</i></span>
+                        <span>赠送麦豆：<em>51</em></span>
+                    </li>
+                    <li class="chooseSum">
+                        <div>段&nbsp;&nbsp;位：</div>
+                        <div>
+                            <a href="#">1段</a>
+                            <a href="#">2段</a>
+                            <a href="#">3段</a>
+                        </div>
+                    </li>
+                    <li class="chooseSum">
+                        <div>组合套餐：</div>
+                        <div>
+                            <a href="#">1罐</a>
+                            <a href="#">2罐</a>
+                            <a href="#">3罐</a>
+                        </div>
+                    </li>
+                    <li class="buyNum">
+                        <div>购买数量：</div>
+                        <div>
+                            <a href="#">-</a>
+                            <input type="text" value="1">
+                            <a href="#">+</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="goubtn"><a href="#" class="btn">加入购物车</a></div>
+            <p class="tishi">温馨提示： 此商品物权归麦乐购(香港)有限公司所有</p>
+        </div>
+    </div>
+    <!--优惠搭配-->
+    <div class="dapei">
+        <h3>优惠搭配</h3>
+        <ul>
+            <li><a href="#">全部搭配</a><span>已选<i>0</i></span></li>
+            <li><a href="#">喂养用品</a></li>
+            <li><a href="#">宝宝营养品</a></li>
+            <li><a href="#">婴幼玩具</a></li>
+        </ul>
+        <div class="dapei-goods">
+            <div class="main-goods">
+                <img src="./images/buy/ynf.jpg" alt="">
+                <p class="p1">易消化不过敏</p>
+                <p class="p2"><a href="#">新西兰karicare山羊奶粉1段（0-6个月）900g（海外版）</a></p>
+                <p class="p3">￥1011 <span class="s1">价格 <del>￥1400</del></span></p>
+                <p class="p4">已售1358件</p>
+            </div>
+            <div class="goods-mid">
+                <ul>
+                    <li>
+                        <i></i>
+                        <div class="goodslist">
+                            <img src="./images/buy/goods1.jpg" alt="">
+                            <p class="p1">香蕉宝宝</p>
+                            <p class="p2"><a href="#">【食品级硅胶】美国香蕉宝宝Baby banana香蕉硅胶婴儿牙胶牙刷（0-12个月）</a></p>
+                            <p class="p3">
+                                <input type="checkbox">
+                                ￥79 <span class="s1">价格 <del>¥105</del></span>
+                            </p>
+                            <p class="p4">已售6498件</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i></i>
+                        <div class="goodslist">
+                            <img src="./images/buy/goods2.jpg" alt="">
+                            <p class="p1">健脑明眸</p>
+                            <p class="p2"><a href="#">【健脑明眸】挪威小鱼Nordic Naturals DHA 鳕鱼油 草莓味（8个月以上） 119ml（海外版）</a></p>
+                            <p class="p3">
+                                <input type="checkbox">
+                                ￥159 <span class="s1">价格 <del>¥207</del></span>
+                            </p>
+                            <p class="p4">已售2241件</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i></i>
+                        <div class="goodslist">
+                            <img src="./images/buy/goods3.jpg" alt="">
+                            <p class="p1">培养感知</p>
+                            <p class="p2"><a href="#">【培养感知】优贝比Yobee星光床铃 夜光 （0个月以上）8805</a></p>
+                            <p class="p3">
+                                <input type="checkbox">
+                                ￥75 <span class="s1">价格 <del>¥98</del></span>
+                            </p>
+                            <p class="p4">已售248件</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="goods-r">
+                <div class="goods-r1"><span></span></div>
+                <div class="goods-r2">
+                    <p class="p1">已选<span>0</span>个搭配</p>
+                    <p class="p2">搭配价：<span class="red">￥<i>1011.00</i></span></p>
+                    <p class="p1">优惠搭配为您节省了 <span class="red">￥<i>389.00</i></span></p>
+                    <input type="button" value="加入购物车">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--主体内容-->
+    <div class="main-mid">
+        <!--左侧块-->
+        <div class="main-l">
+            <div class="main-l-info">
+                <h3>新西兰Karicare</h3>
+                <img src="./images/K.jpg" alt="">
+                <ul>
+                    <li><a href="#">Karicare奶粉金装加强1段</a><span>(8)</span></li>
+                    <li><a href="#">Karicare奶粉金装加强2段</a><span>(6)</span></li>
+                    <li><a href="#">Karicare奶粉金装加强3段</a><span>(5)</span></li>
+                    <li><a href="#">Karicare山羊奶粉1段</a><span>(2)</span></li>
+                    <li><a href="#">Karicare山羊奶粉2段</a><span>(5)</span></li>
+                    <li><a href="#">Karicare奶粉金装加强4段</a><span>(5)</span></li>
+                    <li><a href="#">Karicar山羊奶粉3段</a><span>(2)</span></li>
+                </ul>
+            </div>
+            <div class="main-l-info">
+                <h3>新品抢先看</h3>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+            </div>
+
+            <div class="main-l-info">
+                <h3>浏览过此商品的用户还浏览了</h3>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+            </div>
+
+            <div class="main-l-info">
+                <h3>最近浏览过的商品</h3>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+                <div class="newInfo">
+                    <a href="#"><img src="./images/44.jpg" alt=""></a>
+                    <p><a href="#">新西兰Karicare奶粉金装加强免疫1段（0-6个月）900g（2017/7/14前可食用）</a></p>
+                    <strong>￥99</strong>
+                </div>
+            </div>
+        </div>
+        <!--右侧块-->
+        <div class="main-r">
+            <!--爆款推荐区-->
+            <div class="hotgoods">
+                <h3>爆款推荐专区</h3>
+                <div class="hotp">
+                    <div class="hotp-l"><a href="#"><img src="./images/buy/hotpl.jpg" alt=""></a></div>
+                    <div class="hotp-m">
+                        <div class="m1">
+                            <div><a href="#"><img src="./images/buy/hotp1.jpg" alt=""></a></div>
+                            <div><a href="#"><img src="./images/buy/hotp2.jpg" alt=""></a></div>
+                        </div>
+                        <div class="m1">
+                            <div><a href="#"><img src="./images/buy/hotp3.jpg" alt=""></a></div>
+                            <div><a href="#"><img src="./images/buy/hotp4.jpg" alt=""></a></div>
+                        </div>
+                    </div>
+                    <div class="hotp-r"><a href="#"><img src="./images/buy/hotpr.jpg" alt=""></a></div>
+                </div>
+            </div>
+            <div class="goodsNav">
+                <ul>
+                    <li class="hover"><a href="#">商品详情</a></li>
+                    <li><a href="#">商品评价</a></li>
+                    <li><a href="#"><i><img src="./images/icon_img/iconkfg.gif" alt=""></i><span>在线客服</span></a></li>
+                    <li><a href="#">加入收藏</a></li>
+                    <li class="rightbtn">
+                        <span>￥<i>1011</i></span>
+                        <input type="button" value="加入购物车">
+                    </li>
+                </ul>
+            </div>
+            <div class="goods-info">
+                <div class="ad">
+                    <div><img src="./images/buy/ad1.jpg" alt=""></div>
+                    <div><img src="./images/buy/ad2.jpg" alt=""></div>
+                    <div><img src="./images/buy/ad3.jpg" alt=""><img src="./images/buy/ad4.jpg" alt=""></div>
+                </div>
+                <div class="info"><img src="./images/buy/info1.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info2.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info3.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info4.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info5.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info6.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info7.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info8.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info9.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info10.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info11.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info12.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info13.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info14.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info15.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info16.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info35.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info17.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info18.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info19.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info20.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info21.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info22.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info23.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info24.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info25.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info26.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info27.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info28.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info29.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info30.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info31.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info32.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info33.jpg" alt=""></div>
+                <div class="info"><img src="./images/buy/info34.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--尾部foot-->
+<footer>
+    <!--承诺保障-->
+    <section class="promise">
+        <article class="mid">
+            <dl class="sty1">
+                <span></span>
+                <dt>海外采购</dt>
+                <dd>精选海外优质品牌</dd>
+            </dl>
+            <dl class="sty2">
+                <span class="pro2"></span>
+                <dt>国内外三重检疫</dt>
+                <dd>严把质量关 无忧购物</dd>
+            </dl>
+            <dl class="sty2">
+                <span class="pro3"></span>
+                <dt>中华保险承保</dt>
+                <dd>正品保证</dd>
+            </dl>
+            <dl class="sty2">
+                <span class="pro4"></span>
+                <dt>专属育婴师服务</dt>
+                <dd>一对一专业育婴指导</dd>
+            </dl>
+            <dl class="sty3">
+                <span class="pro5"></span>
+                <dt>满188元包邮</dt>
+                <dd>尊享免费航空快递</dd>
+            </dl>
+        </article>
+    </section>
+    <!--尾部链接-->
+    <article class="mid">
+        <section class="footLink">
+            <div class="fLink-li">
+                <ul>
+                    <li><b>购物指南</b></li>
+                    <li><a href="#">为什么选麦乐购</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">正品保证</a></li>
+                    <li><a href="#">手机麦乐购</a></li>
+                </ul>
+                <ul>
+                    <li><b>配送方式</b></li>
+                    <li><a href="#">跨境电商介绍</a></li>
+                    <li><a href="#">报关说明</a></li>
+                    <li><a href="#">配送说明</a></li>
+                    <li><a href="#">国际快递查询</a></li>
+                    <li><a href="#">国内快递查询</a></li>
+                </ul>
+                <ul>
+                    <li><b>支付方式</b></li>
+                    <li><a href="#">支付方式介绍</a></li>
+                    <li><a href="#">优惠券支付</a></li>
+                    <li><a href="#">余额支付</a></li>
+                </ul>
+                <ul>
+                    <li><b>售后服务</b></li>
+                    <li><a href="#">联系客服</a></li>
+                    <li><a href="#">验货签收</a></li>
+                    <li><a href="#">退换货政策</a></li>
+                    <li><a href="#">退款说明</a></li>
+                    <li><a href="#">关于发票</a></li>
+                </ul>
+                <ul>
+                    <li><b>特色服务</b></li>
+                    <li><a href="#">麦豆说明</a></li>
+                    <li><a href="#">会员级别</a></li>
+                    <li><a href="#">商务会员卡</a></li>
+                    <li><a href="#">VIP会员尊享卡</a></li>
+                    <li><a href="#">妈妈赚钱计划</a></li>
+                </ul>
+            </div>
+            <div class="saoma2">
+                <h3>手机麦乐购</h3>
+                <img src="./images/saoma2.jpg" alt="">
+            </div>
+        </section>
+    </article>
+    <!--关于麦乐购-->
+    <section class="about">
+        <div class="aboutLink">
+            <a href="#">关于麦乐购</a>
+            <span>|</span>
+            <a href="#">保税店专区</a>
+            <span>|</span>
+            <a href="#">服务条款</a>
+            <span>|</span>
+            <a href="#">商户合作</a>
+            <span>|</span>
+            <a href="#">O2O合作</a>
+            <span>|</span>
+            <a href="#">联系我们</a>
+            <span>|</span>
+            <a href="#">友情链接</a>
+            <span>|</span>
+            <a href="#">诚聘英才</a>
+            <span>|</span>
+            <a href="#">手机麦乐购</a>
+            <span>|</span>
+            <a href="#">意见建议</a>
+            <span>|</span>
+            <a href="#">媒体报道</a>
+        </div>
+        <p><a href="#"><img src="./images/gonganbeian.png" alt=""></a>京公网安备：11010102000812号 |
+            中华保险保单号：011644014602050D000001 | 中华人民共和国出版物经营许可证编号：150023 | 广电制作经营许可证：(京)字第06356号</p>
+        <p>网络文化经营许可证：京网文(2016)4048-509号 | 食品经营许可证编号：JY11101070034785 | 食品卫生许可证编号：110101_JX0020 |
+            互联网药品信息服务证书编号：(京)-2016-0095</p>
+        <p>Copyright 2006 - 2016 北京麦乐购科技有限公司版权所有 | 经营许可证编号：京ICP证150027号 | 营业执照：911101010672694772 | 京ICP备14022296号 |
+            中国服务热线：400-666-6600</p>
+        <section class="shangbiao">
+            <a href="#"><img src="./images/icon_img/s1.jpg" alt=""></a>
+            <a href="#"><img src="./images/icon_img/s2.jpg" alt=""></a>
+            <a href="#"><img src="./images/icon_img/s3.jpg" alt=""></a>
+            <a href="#"><img src="./images/icon_img/s4.jpg" alt=""></a>
+        </section>
+    </section>
+</footer>
+
+<!--右侧边栏目-->
+<aside class="asideRight">
+    <div class="panda"><img src="./images/bearCart.png" alt=""></div>
+    <div class="car-nav">
+        <ul>
+            <li><a href="#"><span></span></a></li>
+            <li><a href="#"><span class="car"></span><span class="shop">购物车</span><span class="num">0</span></a></li>
+        </ul>
+        <ul class="car-info">
+            <li>
+                <a href="#">
+                    <span class="weixin"></span>
+                    <i>客户经理</i>
+                    <span class="dog"></span>
+                    <i>客服</i>
+                </a>
+                <span class="tan kefu"><img src="./images/loginBefore.png" alt=""></span>
+            </li>
+            <li><a href="#"><span></span></a><span class="tan">我的收藏</span></li>
+            <li><a href="#"><span></span></a><span class="tan">浏览历史</span></li>
+            <li><a href="#"><span></span></a><span class="tan saom"><img src="./images/saoma.jpg" alt=""></span></li>
+            <li><a href="#"><span></span></a><span class="tan">反馈</span></li>
+            <li id="top"><a href="#"><span></span></a></li>
+        </ul>
+    </div>
+</aside>
+
+<!--左侧楼层栏目-->
+<aside class="asideLeft">
+    <a href="javascript:;">
+        <div class="gofloor1"></div>
+        <font>宝宝奶粉</font></a>
+    <a href="javascript:;">
+        <div class="gofloor2"></div>
+        <font>宝宝辅食</font></a>
+    <a href="javascript:;">
+        <div class="gofloor3"></div>
+        <font>营养健康</font></a>
+    <a href="javascript:;">
+        <div class="gofloor4"></div>
+        <font>宝宝用品</font></a>
+    <a href="javascript:;">
+        <div class="gofloor5"></div>
+        <font>宝宝服饰</font></a>
+    <a href="javascript:;">
+        <div class="gofloor6"></div>
+        <font>宝宝玩具</font></a>
+    <a href="javascript:;">
+        <div class="gofloor7"></div>
+        <font>孕产用品</font></a>
+    <a href="javascript:;">
+        <div class="gofloor8"></div>
+        <font>化妆品</font></a>
+    <a href="javascript:;">
+        <div class="gofloor9"></div>
+        <font>居家生活</font></a>
+</aside>
+
+<!--滑到一定位置出现搜索顶部--->
+<section class="fly-nav">
+    <section class="flyMid">
+        <div class="flylogo"><img src="./images/logo.png" alt=""></div>
+        <div class="fly-search">
+            <form action="" id="formDiv">
+                <input type="text" placeholder="输入搜索的内容">
+                <input type="button" value="搜索">
+            </form>
+        </div>
+        <div class="fly-right"><a href="#"><span></span>
+            <div>手机麦乐购</div>
+        </a></div>
+    </section>
+</section>
+
+<script src="./libs/jquery/dist/jquery.min.js"></script>
+<script src="./javascript/jquery.colorbox-min.js"></script>
+<script src="./javascript/zzsc.js"></script>
+<script src="./javascript/main.js"></script>
+<script src="javascript/nav.js"></script>
+<script src="./javascript/conmmodityDate.js"></script>
+</body>
+</html>
